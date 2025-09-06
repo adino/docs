@@ -169,5 +169,52 @@
       "github": "https://github.com/adino",
       "linkedin": "https://linkedin.com/company/adino"
     }
+  },
+  "integrations": {
+    "amplitude": {
+      "apiKey": "ef36a6b4db60d92c0889c283b59c01e5"
+    }
+  },
+  "seo": {
+    "metatags": {
+      "charset": "UTF-8",
+      "viewport": "width=device-width, initial-scale=1.0",
+      "description": "Adino Documentation",
+      "keywords": "healthcare, orders, results, labs",
+      "author": "Support at Adino",
+      "robots": "index, follow",
+      "googlebot": "index, follow",
+      "generator": "adino",
+      "theme-color": "#000000",
+      "color-scheme": "light dark",
+      "canonical": "https://adino.com",
+      "referrer": "origin",
+      "refresh": "30",
+      "language": "en",
+      "copyright": "Copyright 2025",
+      "distribution": "global",
+      "coverage": "Worldwide",
+      "category": "Healthcare Technology",
+      "target": "all",
+      "HandheldFriendly": "True",
+      "MobileOptimized": "320",
+      "apple-mobile-web-app-capable": "yes",
+      "apple-mobile-web-app-status-bar-style": "black",
+      "apple-mobile-web-app-title": "Adino Documentation",
+      "application-name": "Adino Docs",
+      "msapplication-TileColor": "#000000",
+      "og:title": "Adino Docs",
+      "og:type": "website",
+      "og:url": "https://docs.adino.com",
+      "og:description": "Adino Documentation",
+      "og:site_name": "Adino Documentation",
+      "og:locale": "en_US",
+      "twitter:card": "summary",
+      "twitter:site": "@adino",
+      "twitter:creator": "@adino",
+      "twitter:title": "Adino Docs",
+      "twitter:description": "Adino Documentation",
+      "twitter:app:name:iphone": "Adino Docs"
+    }
   }
 }
