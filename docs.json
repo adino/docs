@@ -7,6 +7,15 @@
     "light": "#761BAB",
     "dark": "#761BAB"
   },
+  "fonts": {
+    "heading": {
+      "family": "Inter",
+      "weight": 700
+    },
+    "body" : {
+      "family": "Merriweather"
+    }
+  },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
@@ -16,33 +25,34 @@
           {
             "group": "Getting started",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "index"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Orders",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "guides/orders/send",
+              "guides/orders/receive"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Results",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "guides/results/send",
+              "guides/results/receive"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "tab": "Quickstarts",
+        "groups": [
           {
-            "group": "AI tools",
+            "group": "Getting started",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "quickstarts/introduction",
+              "quickstarts/react",
+              "quickstarts/go"
             ]
           }
         ]
@@ -66,23 +76,59 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Frontend SDKs",
+        "groups": [
+          {
+            "group": "Typescript",
+            "pages": [
+              "sdks/typescript/sdk"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Backend SDKs",
+        "groups": [
+          {
+            "group": "Golang",
+            "pages": [
+              "sdks/go/sdk"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Resources",
+        "groups": [
+          {
+            "group": "Glossary",
+            "pages": [
+              "resources/glossary"
+            ]
+          },
+          {
+            "group": "Frequently Asked Questions",
+            "pages": [
+              "resources/faqs/general",
+              "resources/faqs/technical"
+
+            ]
+          }
+        ]
       }
     ],
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://docs.adino.com",
-          "icon": "book-open-cover"
-        },
-        {
           "anchor": "Community",
-          "href": "https://mintlify.com/community",
+          "href": "https://www.adino.com/in",
           "icon": "slack"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "anchor": "Insights",
+          "href": "https://www.adino.com/insights",
           "icon": "newspaper"
         }
       ]

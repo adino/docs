@@ -1,9 +1,21 @@
-#navbar {
-    background: "#F8F7F5";
+:root {
+    --adino-light-gray: #A3A3A3;
 }
 
 #header {
 
+}
+
+#navbar {
+    background: "#F8F7F5";
+    font-family: "Inter", serif;
+    height: 135px;
+}
+
+#navbar .nav-tabs {
+    font-size: 1em;
+    margin-top: 1.3rem !important;
+    column-gap: 3rem;
 }
 
 #navbar .nav-logo {
@@ -11,8 +23,51 @@
     max-width: none !important;
     height: auto !important;
     width: 163px !important;
+    margin-top: 2rem !important;
+}
+
+#navbar .nav-tabs-item > div {
+    height: 4px !important;
+}
+
+@media (max-width: 1023px) {
+    #navbar {
+        height: 130px;
+    }
+
+    #navbar .nav-logo {
+        width: 123px !important;
+        margin-top: 1rem !important;
+    }
+
+    #navbar .nav-tabs {
+        column-gap: 1.6rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #navbar .nav-logo {
+        width: 123px !important;
+    }
+}
+
+#sidebar-content {
+    font-family: "Inter", serif;
+}
+
+#sidebar-title {
+    font-family: "Merriweather", serif;
+    font-size: 1.3em;
+    color: var(--adino-light-gray);
+    padding-top: .6rem;
+}
+
+#sidebar-group > li {
+    font-size: 1.1em;
+    padding-top: .6rem;
 }
 
 footer {
     margin-top: 2rem;
 }
+
