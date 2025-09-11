@@ -61,54 +61,18 @@
         "tab": "API reference",
         "groups": [
           {
-            "group": "Overview",
+            "group": "API documentation",
             "pages": [
               "api-reference/introduction"
             ]
           },
           {
-            "group": "IAM System",
+            "group": "Endpoint examples",
             "pages": [
-              {
-                "group": "Member API",
-                "openapi": "https://api.adino.com/discovery/connector/iam/v1alpha/member.openapi.yaml"
-              },
-              {
-                "group": "Discovery Authentication API",
-                "pages": [
-
-                ],
-                "openapi": "https://api.adino.com/discovery/connector/iam/v1alpha/discovery_authentication.openapi.yaml"
-              },
-              {
-                "group": "Authentication API",
-                "openapi": "https://api.adino.com/discovery/connector/iam/v1alpha/authentication.openapi.yaml"
-              },
-              {
-                "group": "Organization API",
-                "openapi": "https://api.adino.com/discovery/connector/iam/v1alpha/organization.openapi.yaml"
-              }
-
-            ]
-          },
-          {
-            "group": "Ecosystem System",
-            "pages": [
-              {
-                "group": "Ecosystem API",
-                "pages": [
-
-                ],
-                "openapi": "https://api.adino.com/discovery/connector/ecosystem/v2beta/ecosystem.openapi.yaml"
-              },
-              {
-                "group": "Environments API",
-                "openapi": "https://api.adino.com/discovery/connector/ecosystem/v2beta/environment.openapi.yaml"
-              },
-              {
-                "group": "Configuration API",
-                "openapi": "https://api.adino.com/discovery/connector/ecosystem/v2beta/configuration.openapi.yaml"
-              }
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete",
+              "api-reference/endpoint/webhook"
             ]
           }
         ]
@@ -141,8 +105,7 @@
           {
             "group": "Glossary",
             "pages": [
-              "resources/glossary",
-              "resources/glossary-temp"
+              "resources/glossary"
             ]
           },
           {
@@ -216,22 +179,28 @@
     "metatags": {
       "charset": "UTF-8",
       "viewport": "width=device-width, initial-scale=1.0",
-      "description": "Adino Documentation",
-      "keywords": "healthcare, orders, results, labs",
+      "description": "Page description",
+      "keywords": "keyword1, keyword2, keyword3",
       "author": "Support at Adino",
       "robots": "index, follow",
       "googlebot": "index, follow",
+      "google": "notranslate",
+      "google-site-verification": "verification_token",
       "generator": "adino",
       "theme-color": "#000000",
       "color-scheme": "light dark",
       "canonical": "https://adino.com",
+      "format-detection": "telephone=no",
       "referrer": "origin",
       "refresh": "30",
+      "rating": "general",
+      "revisit-after": "7 days",
       "language": "en",
       "copyright": "Copyright 2025",
+      "reply-to": "email@example.com",
       "distribution": "global",
       "coverage": "Worldwide",
-      "category": "Healthcare Technology",
+      "category": "Technology",
       "target": "all",
       "HandheldFriendly": "True",
       "MobileOptimized": "320",
@@ -240,18 +209,33 @@
       "apple-mobile-web-app-title": "Adino Documentation",
       "application-name": "Adino Docs",
       "msapplication-TileColor": "#000000",
-      "og:title": "Adino Docs",
+      "msapplication-TileImage": "path/to/tile.png",
+      "msapplication-config": "path/to/browserconfig.xml",
+      "og:title": "Open Graph Title",
       "og:type": "website",
-      "og:url": "https://docs.adino.com",
-      "og:description": "Adino Documentation",
-      "og:site_name": "Adino Documentation",
+      "og:url": "https://example.com",
+      "og:image": "https://example.com/image.jpg",
+      "og:description": "Open Graph Description",
+      "og:site_name": "Site Name",
       "og:locale": "en_US",
+      "og:video": "https://example.com/video.mp4",
+      "og:audio": "https://example.com/audio.mp3",
       "twitter:card": "summary",
       "twitter:site": "@adino",
       "twitter:creator": "@adino",
-      "twitter:title": "Adino Docs",
-      "twitter:description": "Adino Documentation",
-      "twitter:app:name:iphone": "Adino Docs"
+      "twitter:title": "Twitter Title",
+      "twitter:description": "Twitter Description",
+      "twitter:image": "https://example.com/image.jpg",
+      "twitter:image:alt": "Image Description",
+      "twitter:player:width": "480",
+      "twitter:player:height": "480",
+      "twitter:app:name:iphone": "Adino Docs",
+      "article:published_time": "2024-01-01T00:00:00+00:00",
+      "article:modified_time": "2024-01-02T00:00:00+00:00",
+      "article:expiration_time": "2024-12-31T00:00:00+00:00",
+      "article:author": "Author Name",
+      "article:section": "Technology",
+      "article:tag": "tag1, tag2, tag3"
     }
   }
 }
