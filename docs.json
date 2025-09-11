@@ -61,18 +61,54 @@
         "tab": "API reference",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Overview",
             "pages": [
               "api-reference/introduction"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "IAM System",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              {
+                "group": "Member API",
+                "openapi": "https://api.adino.com/discovery/connector/iam/v1alpha/member.openapi.yaml"
+              },
+              {
+                "group": "Discovery Authentication API",
+                "pages": [
+
+                ],
+                "openapi": "https://api.adino.com/discovery/connector/iam/v1alpha/discovery_authentication.openapi.yaml"
+              },
+              {
+                "group": "Authentication API",
+                "openapi": "https://api.adino.com/discovery/connector/iam/v1alpha/authentication.openapi.yaml"
+              },
+              {
+                "group": "Organization API",
+                "openapi": "https://api.adino.com/discovery/connector/iam/v1alpha/organization.openapi.yaml"
+              }
+
+            ]
+          },
+          {
+            "group": "Ecosystem System",
+            "pages": [
+              {
+                "group": "Ecosystem API",
+                "pages": [
+
+                ],
+                "openapi": "https://api.adino.com/discovery/connector/ecosystem/v2beta/ecosystem.openapi.yaml"
+              },
+              {
+                "group": "Environments API",
+                "openapi": "https://api.adino.com/discovery/connector/ecosystem/v2beta/environment.openapi.yaml"
+              },
+              {
+                "group": "Configuration API",
+                "openapi": "https://api.adino.com/discovery/connector/ecosystem/v2beta/configuration.openapi.yaml"
+              }
             ]
           }
         ]
