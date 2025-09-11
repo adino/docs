@@ -4,7 +4,7 @@ import matter from "gray-matter";
 
 const glossaryDir = path.resolve("terms");
 const resourcesDir = path.resolve("resources");
-const outputFile = path.join(resourcesDir, "glossary-temp.mdx");
+const outputFile = path.join(resourcesDir, "glossary.mdx");
 
 type GlossaryEntry = {
     slug: string;
@@ -46,7 +46,7 @@ const grouped = entries.reduce<Record<string, GlossaryEntry[]>>((acc, entry) => 
 const sortedLetters = Object.keys(grouped).sort();
 
 let output = `---
-title: Glossary of Terms (TEMP)
+title: Glossary of Terms
 ---
 
 <Panel>
