@@ -12,7 +12,7 @@
       "family": "Inter",
       "weight": 700
     },
-    "body" : {
+    "body": {
       "family": "Merriweather"
     }
   },
@@ -75,9 +75,7 @@
               },
               {
                 "group": "Discovery Authentication API",
-                "pages": [
-
-                ],
+                "pages": [],
                 "openapi": "https://api.adino.com/discovery/connector/iam/v1alpha/discovery_authentication.openapi.yaml"
               },
               {
@@ -88,7 +86,6 @@
                 "group": "Organization API",
                 "openapi": "https://api.adino.com/discovery/connector/iam/v1alpha/organization.openapi.yaml"
               }
-
             ]
           },
           {
@@ -96,9 +93,7 @@
             "pages": [
               {
                 "group": "Ecosystem API",
-                "pages": [
-
-                ],
+                "pages": [],
                 "openapi": "https://api.adino.com/discovery/connector/ecosystem/v2beta/ecosystem.openapi.yaml"
               },
               {
@@ -142,7 +137,6 @@
             "group": "Glossary",
             "pages": [
               "resources/glossary",
-              "resources/glossary-temp"
             ]
           },
           {
@@ -150,7 +144,6 @@
             "pages": [
               "resources/faqs/general",
               "resources/faqs/technical"
-
             ]
           }
         ]
@@ -190,15 +183,15 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
