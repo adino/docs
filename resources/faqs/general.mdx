@@ -1,24 +1,117 @@
 ---
 title: General FAQs
 ---
+<Note>Please note:  The terms and definitions listed in this FAQ are subject to change without notice.</Note>
 
-### General Questions
-
+### Introduction to FAQs
 <AccordionGroup>
-    <Accordion title="What is the purpose of this documentation?">
-        Our documentation is designed to help you quickly get started with our API and SDKs. It includes guides, tutorials, and a complete API reference.
+    <Accordion title="What is the purpose of the Frequently Asked Questions?">
+        Frequently Asked Questions (FAQs) are designed to be the first place that you could look to answer questions that are commonly asked of our support team. This is to be used as a resource for you.
     </Accordion>
-
     <Accordion title="Is there a support team I can contact?">
-        Yes, our support team is available to help you. You can reach us via email at support@your-company.com or through our community Discord channel.
+        Yes, our support team is available to help you. You can reach us via email at support@adino.com 
+    </Accordion>
+</AccordionGroup>
+
+### Environments
+<AccordionGroup>
+    <Accordion title="Dev (Development) Environment">
+        This is the environment that the customer owns. It is an environment where the customer does their local development of software that is used to support their business. These environments can include local development, on the workstation of a developer, and shared development environments where multiple developers push their code to do integration testing before releasing code to the testing teams.  These environments typically do not have access from the Internet
+    </Accordion>
+    <Accordion title="Test (QA) Environment">
+        This is the environment that the customer owns. It is typically used for integration of development efforts and testing of software before the software is released to production. There are typically more than one test environment at any given customer. These environments typically do not have access from the Internet.
+
+        When a customer performs any testing, it is perferred that testing be performed in the customer's test environments.
+    </Accordion>
+    <Accordion title="Production Environment">
+        The production environment is always the environment that runs the actual business. These environments are carefully protected because anything that happens to these environments is what is considered live and can't impact the business production environments are critical and are always protected.
+    </Accordion>
+</AccordionGroup>
+
+
+### Implementation
+<AccordionGroup>
+    <Accordion title="What is the typical implementation process?">
+        We first start by talking with your technology teams. This process is usually less than an hour, and it involves getting a copy of or access to one of your test databases. The important step here is to confirm the set up and where we will install the connector.
+
+        These steps typically include:
+            - Create data mapping
+            - Implement the API calls to send data to Adino
+            - Test APIs and configuration
+            - Explain/Review QA/Support Adino ticket service
     </Accordion>
 
-    <Accordion title="Where can I find my API key?">
-        Your API key can be found in your dashboard under the "API Keys" section. Please keep this key secure and do not share it publicly.
+    <Accordion title="How do I know if the required data is being sent correctly?">
+        The connector writes its activity to tables in the database. It keeps track of the status of lab data being sent. It knows which labs are yet to process, which labs are in process, which labs are incomplete and why they are incomplete, and which labs have been successfully sent.
+        How does Adino make the installation process easier and less technically difficult?
+        The installation process includes a method of discovering the structure of your database. We do this, of course with your permission. Typically this process is done with an export of one of your test databases that looks like production. We do not need any customer data to do this, there is no risk of releasing PII.
     </Accordion>
 
-    <Accordion title="How do I handle authentication?">
-        Our API uses a standard bearer token for authentication. You can pass your API key in the `Authorization` header of your requests.
+    <Accordion title="How does Adino understand my database relationships, without an administrator?">
+        We call this process, the introspection algorithm. These processes run  during the early implementation steps. This allows the Adino team to understand the structure, the entity relationship (ERD)  of your  database tables.   By doing this, we can quickly create the correct data mappings and reduce the amount of time it takes to get your implementation up and running.
+    </Accordion>
+    <Accordion title="How much time of Customer resources are required to implement - system setup, data review, testing and related activities?">
+        There are very few customer resources that are required to implement this Adino service. The main interaction will be installing the connector and then enabling that connector to do its work.
+
+        When the connector is installed and the initial configuration and discovery is completed, this service should be able to run without interaction.
+
+        There will be at times updates that are sent out that we will need your team to make sure they're installed correctly.
+
+        How does Adino update my database for the Connector to operate properly?
+        When you initially set up Adino, you tell the configuration service where your database is and what a username and password is to that database that allows CRUD (create, read, update, and delete) permissions on the database.  Based on that data, the connector implementation can do the required work for a complete setup.  It starts with the “Introspection Algorithm”.
+    </Accordion>
+    <Accordion title="How long does an implementation take?">
+        Ideally, the implementation should take less than a few hours. There will be cases where the implementation can't take longer, depending on the complexity of the customer environment and reporting needs.
     </Accordion>
 
 </AccordionGroup>
+
+### Results Confirmation
+<AccordionGroup>
+    <Accordion title="How do I know that the right government agencies are set to receive these results?">
+        The configuration within Adino is based on your state and location. We regularly maintain updates to the configurations so that as laws or policies change within the government agencies, those configurations are kept current on your local configuration.
+    </Accordion>
+    <Accordion title="How do I know that the right government agencies are receiving the results?">
+        The status dashboard will keep an up-to-date summary of all the result send related activities. Within a simple glance, you will be able to tell which results have been completed, which results have failed and why, and which results are in process and which results have yet to be sent. 
+    </Accordion>
+</AccordionGroup>
+
+### Support
+<AccordionGroup>
+    <Accordion title="How do I open a support ticket?">
+        You can open a support request by sending an email to support@adino.com
+    </Accordion>
+    <Accordion title="What is the response time of the support tickets?">
+        Adino will do our best effort to respond to support tickets within 72 hours.
+    </Accordion>
+    <Accordion title="How long does it typically take to resolve a support issue?">
+        While each customer is different, there are many support issues that will follow similar patterns. Typically a support issue can be resolved within a business day or two.
+    </Accordion>
+</AccordionGroup>
+
+### Security
+<AccordionGroup>
+    <Accordion title="Is the Adino process secure?">
+        All data that Adino sends to government agencies will be encrypted. The Private keys will only be shared with Adino, and the government agency is receiving the data. Therefore, data in transit will not be viewable by people who should not be authorized to see that data.
+    </Accordion>
+    <Accordion title="How do I know that the right government agencies are receiving the results?">
+        The status dashboard will keep an up-to-date summary of all the result send related activities. Within a simple glance, you will be able to tell which results have been completed, which results have failed and why, and which results are in process and which results have yet to be sent. 
+    </Accordion>
+</AccordionGroup>
+
+### Reporting
+<AccordionGroup>
+    <Accordion title="Who has access to the Adino Dashboard?">
+        You can configure who has access to the Adino dashboard. This dashboard resides behind your firewall and is not publicly available.
+    </Accordion>
+    <Accordion title="How do I view the status of data that is being sent?">
+        The Adino Dashboard shows the status of all data that  passes through the connector. the data is organized by day and will show successes, failures, items that need to be retry, items that are incomplete, and items that are completed.
+    </Accordion>
+    <Accordion title="What happens when a data send fails?  Can  I see a list of failures?">
+        The Adino dashboard will keep track of any failures in the same process. There will be a list that is suitable that you can view any failed. Send attempts.
+    </Accordion>
+    <Accordion title="What happens when they send fails? Does it automatically retry?">
+        When a send fails, that data is flagged as incomplete, and Adino automatically does one of several things. It will first try to resend the data if there was a failure during the send process. If the data is incomplete and the send cannot successfully close, that record will be flagged for follow up by one of your personnel.
+    </Accordion>
+</AccordionGroup>
+
