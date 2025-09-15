@@ -145,6 +145,20 @@
               "resources/faqs/general",
               "resources/faqs/technical"
             ]
+          },
+          {
+            "group": "Support",
+            "pages": [
+              "resources/support/overview"
+            ]
+          },
+          {
+            "group": "Trust and Security",
+            "pages": [
+              "resources/security/security",
+              "resources/security/privacy",
+              "resources/security/compliance"
+            ]
           }
         ]
       }
@@ -160,6 +174,11 @@
           "anchor": "Insights",
           "href": "https://www.adino.com/insights",
           "icon": "newspaper"
+        },
+        {
+          "anchor": "Support",
+          "href": "mailto:support@adino.com",
+          "icon": "envelope"
         }
       ]
     }
