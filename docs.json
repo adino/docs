@@ -41,6 +41,15 @@
               "guides/results/send",
               "guides/results/receive"
             ]
+          },
+          {
+            "group": "Capability",
+            "pages": [
+              "guides/capabilities/guide-auth",
+              "guides/capabilities/guide-governance",
+              "guides/capabilities/guide-security",
+              "guides/capabilities/guide-reporting"
+            ]
           }
         ]
       },
