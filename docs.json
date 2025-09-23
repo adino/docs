@@ -105,6 +105,27 @@
                 "openapi": "https://api.adino.com/discovery/connector/ecosystem/v2beta/configuration.openapi.yaml"
               }
             ]
+          },
+          {
+            "group": "Errors",
+            "pages": [
+              {
+                "group": "API Errors",
+                "pages": [
+                  "api-reference/errors/400",
+                  "api-reference/errors/401",
+                  "api-reference/errors/403",
+                  "api-reference/errors/404",
+                  "api-reference/errors/409",
+                  "api-reference/errors/429",
+                  "api-reference/errors/499",
+                  "api-reference/errors/500",
+                  "api-reference/errors/501",
+                  "api-reference/errors/503",
+                  "api-reference/errors/504"
+                ]
+              }
+            ]
           }
         ]
       },

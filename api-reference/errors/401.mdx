@@ -1,0 +1,156 @@
+
+## intermediate_session_token
+
+**_401 Unauthorized_**
+
+Error exchanging intermediate session token. It may be incorrect, expired, or already used.
+
+```code
+{
+  "code": 16,
+  "message": "Error exchanging intermediate session token. It may be incorrect, expired, or already used.",
+  "details": [
+    {
+      "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+      "locale": "en-US",
+      "message": "Error exchanging intermediate session token for an actual token"
+    },
+    {
+      "@type": "type.googleapis.com/google.rpc.Help",
+      "links": [
+        {
+          "description": "Help with Authentication",
+          "url": "https://docs.adino.com/authentication"
+        },
+        {
+          "description": "API Error Troubleshooting Guide",
+          "url": "https://docs.adino.com/apis/design/errors"
+        }
+      ]
+    },
+    {
+      "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+      "reason": "intermediate_session_token",
+      "domain": "https://iam.adino.system",
+      "metadata": {}
+    },
+    {
+      "@type": "type.googleapis.com/google.rpc.RequestInfo",
+      "request_id": "336daIx5s0CbXYYwANsZq0a1b2w",
+      "serving_data": "build: ; version: v2.0"
+    }
+  ]
+}
+```
+
+How to get help: Send us an email at [support@adino.com](mailto:support@adino.com?subject=Support%20for%20error%20intermediate_session_token) or ask in [Slack](https://join.slack.com/t/adino/shared_invite/xyz)
+
+---
+
+## missing_bearer_token
+
+**_401 Unauthorized_**
+
+Invalid or incorrect credentials
+
+```code
+{
+  "code": 16,
+  "message": "Invalid or incorrect credentials",
+  "details": [
+    {
+      "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+      "locale": "en-US",
+      "message": "Invalid API key"
+    },
+    {
+      "@type": "type.googleapis.com/google.rpc.Help",
+      "links": [
+        {
+          "description": "Help with Authentication",
+          "url": "https://docs.adino.com/authentication"
+        },
+        {
+          "description": "API Error Troubleshooting Guide",
+          "url": "https://docs.adino.com/apis/design/errors"
+        }
+      ]
+    },
+    {
+      "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+      "reason": "missing_bearer_token",
+      "domain": "https://iam.adino.system",
+      "metadata": {}
+    },
+    {
+      "@type": "type.googleapis.com/google.rpc.RequestInfo",
+      "request_id": "336daGIIHM7CLdiULtlEc1Vxz63",
+      "serving_data": "build: ; version: v2.0"
+    }
+  ]
+}
+```
+
+How to get help: Send us an email at [support@adino.com](mailto:support@adino.com?subject=Support%20for%20error%20missing_bearer_token) or ask in [Slack](https://join.slack.com/t/adino/shared_invite/xyz)
+
+---
+
+## server_authentication
+
+**_401 Unauthorized_**
+
+Invalid or incorrect credentials
+
+```code
+{
+  "code": 16,
+  "message": "Invalid or incorrect credentials",
+  "details": [
+    {
+      "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+      "reason": "server_authentication",
+      "domain": "https://platform.adino.system",
+      "metadata": {}
+    },
+    {
+      "@type": "type.googleapis.com/google.rpc.RequestInfo",
+      "request_id": "336daIY7J8o3fQELwUu4PUqvGpo",
+      "serving_data": "build: ; version: v2.0"
+    }
+  ]
+}
+```
+
+How to get help: Send us an email at [support@adino.com](mailto:support@adino.com?subject=Support%20for%20error%20server_authentication) or ask in [Slack](https://join.slack.com/t/adino/shared_invite/xyz)
+
+---
+
+## server_unauthenticated
+
+**_401 Unauthorized_**
+
+Authentication required or failed
+
+```code
+{
+  "code": 16,
+  "message": "Authentication required or failed",
+  "details": [
+    {
+      "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+      "reason": "server_unauthenticated",
+      "domain": "https://platform.adino.system",
+      "metadata": {}
+    },
+    {
+      "@type": "type.googleapis.com/google.rpc.RequestInfo",
+      "request_id": "336daMVjiLaeY7RyD6REKkpHWu8",
+      "serving_data": "build: ; version: v2.0"
+    }
+  ]
+}
+```
+
+How to get help: Send us an email at [support@adino.com](mailto:support@adino.com?subject=Support%20for%20error%20server_unauthenticated) or ask in [Slack](https://join.slack.com/t/adino/shared_invite/xyz)
+
+---
