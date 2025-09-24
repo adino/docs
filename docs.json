@@ -43,12 +43,47 @@
             ]
           },
           {
-            "group": "Capability",
+            "group": "Authentication",
             "pages": [
-              "guides/capabilities/guide-auth",
-              "guides/capabilities/guide-governance",
-              "guides/capabilities/guide-security",
-              "guides/capabilities/guide-reporting"
+              "guides/authentication/auth-overview",
+              "guides/authentication/auth-oauth",
+              "guides/authentication/auth-password"
+            ]
+          },
+          {
+            "group": "Authorization & Provisoning",
+            "pages": [
+              "guides/provisoning/prov-overview",
+              "guides/provisoning/prov-feature1"
+            ]
+          },
+          {
+            "group": "SDKs",
+            "pages": [
+              "guides/sdks/sdk-overview",
+              "guides/sdks/sdk-feature1"
+            ]
+          },
+          {
+            "group": "Billing & Subscription Management",
+            "pages": [
+              "guides/billing/billmgmt-overview",
+              "guides/billing/billmgmt-signup"
+            ]
+          },
+          {
+            "group": "Governance",
+            "pages": [
+              "guides/governance/gov-overview",
+              "guides/governance/gov-feature1",
+              "guides/governance/gov-feature2"
+            ]
+          },
+          {
+            "group": "Documentation",
+            "pages": [
+              "guides/docs/docs-overview",
+              "guides/docs/docs-feature1"
             ]
           }
         ]
