@@ -75,15 +75,7 @@
             "group": "Governance",
             "pages": [
               "guides/governance/gov-overview",
-              "guides/governance/gov-feature1",
-              "guides/governance/gov-feature2"
-            ]
-          },
-          {
-            "group": "Documentation",
-            "pages": [
-              "guides/docs/docs-overview",
-              "guides/docs/docs-feature1"
+              "guides/governance/gov-feature1"
             ]
           }
         ]
@@ -97,78 +89,6 @@
               "quickstarts/introduction",
               "quickstarts/react",
               "quickstarts/go"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "Overview",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "IAM System",
-            "pages": [
-              {
-                "group": "Member API",
-                "openapi": "https://api.adino.com/discovery/connector/iam/v1alpha/member.openapi.yaml"
-              },
-              {
-                "group": "Discovery Authentication API",
-                "pages": [],
-                "openapi": "https://api.adino.com/discovery/connector/iam/v1alpha/discovery_authentication.openapi.yaml"
-              },
-              {
-                "group": "Authentication API",
-                "openapi": "https://api.adino.com/discovery/connector/iam/v1alpha/authentication.openapi.yaml"
-              },
-              {
-                "group": "Organization API",
-                "openapi": "https://api.adino.com/discovery/connector/iam/v1alpha/organization.openapi.yaml"
-              }
-            ]
-          },
-          {
-            "group": "Ecosystem System",
-            "pages": [
-              {
-                "group": "Ecosystem API",
-                "pages": [],
-                "openapi": "https://api.adino.com/discovery/connector/ecosystem/v2beta/ecosystem.openapi.yaml"
-              },
-              {
-                "group": "Environments API",
-                "openapi": "https://api.adino.com/discovery/connector/ecosystem/v2beta/environment.openapi.yaml"
-              },
-              {
-                "group": "Configuration API",
-                "openapi": "https://api.adino.com/discovery/connector/ecosystem/v2beta/configuration.openapi.yaml"
-              }
-            ]
-          },
-          {
-            "group": "Errors",
-            "pages": [
-              {
-                "group": "API Errors",
-                "pages": [
-                  "api-reference/errors/400",
-                  "api-reference/errors/401",
-                  "api-reference/errors/403",
-                  "api-reference/errors/404",
-                  "api-reference/errors/409",
-                  "api-reference/errors/429",
-                  "api-reference/errors/499",
-                  "api-reference/errors/500",
-                  "api-reference/errors/501",
-                  "api-reference/errors/503",
-                  "api-reference/errors/504"
-                ]
-              }
             ]
           }
         ]
