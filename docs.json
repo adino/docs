@@ -47,6 +47,7 @@
             "pages": [
               "guides/authentication/auth-overview",
               "guides/authentication/auth-oauth",
+              "guides/authentication/auth-oauth2",
               "guides/authentication/auth-password"
             ]
           },
