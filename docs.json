@@ -201,9 +201,7 @@
     }
   },
   "integrations": {
-    "amplitude": {
-      "apiKey": "ef36a6b4db60d92c0889c283b59c01e5"
-    }
+
   },
   "seo": {
     "metatags": {
